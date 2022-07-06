@@ -5,3 +5,5 @@ CREATE TABLE car (
     vin BIGINT,
     release_year YEAR
 );
+
+DROP TABLE IF EXISTS car;
